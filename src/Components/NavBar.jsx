@@ -2,8 +2,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const NavBar = () => {
 	return (
-		<div className='shadow-lg'>
-			<div className='pl-4 pr-4 lg:pl-0 lg:pr-0 flex justify-between my-6 items-center mx-auto pb-4 lg:max-w-[1200px]'>
+		<div className='shadow-lg bg-white'>
+			<div className='pl-4 pr-4 lg:pl-0 lg:pr-0 flex justify-between items-center mx-auto py-4 lg:max-w-[1200px]'>
 				<img
 					className='w-[100px]'
 					src='https://lh7-us.googleusercontent.com/TvLUwSeXBErDf9yMpa2BwEOFA8EKepuCaus1b6f-4Qzz3yv4O2YcPRhJu1R1NaTxiF4UH7a6lt8xW4TVlw6W2TIPCZY5_5eKgKRREthnlVtAQ4dEg1rVt5nNzAMSTkjr2rvTiit06ELjWHGGsEH_4Q'
