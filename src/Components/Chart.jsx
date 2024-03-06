@@ -17,7 +17,7 @@ const Chart = () => {
 
 	const options = {};
 	return (
-		<div className='w-[30%]'>
+		<div className='lg:w-[30%]'>
 			<Doughnut data={data} options={options}></Doughnut>
 		</div>
 	);

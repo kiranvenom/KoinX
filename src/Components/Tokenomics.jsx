@@ -2,7 +2,7 @@ import Chart from './Chart';
 
 const Tokenomics = () => {
 	return (
-		<div className='lg:w-[70%] bg-white rounded-lg p-4'>
+		<div className='hidden lg:block lg:w-[70%] bg-white rounded-lg p-4 mb-4'>
 			<h1 className='font-bold text-3xl mb-2'>Tokenomics</h1>
 			<Chart />
 			<p className='mt-4'>

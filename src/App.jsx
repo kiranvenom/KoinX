@@ -7,6 +7,7 @@ import Perfromance from './Components/Perfromance';
 import Sentiment from './Components/Sentiment';
 import About from './Components/About';
 import Tokenomics from './Components/Tokenomics';
+import Team from './Components/Team';
 
 const App = () => {
 	return (
@@ -20,6 +21,7 @@ const App = () => {
 				<Sentiment />
 				<About />
 				<Tokenomics />
+				<Team />
 			</div>
 		</>
 	);
