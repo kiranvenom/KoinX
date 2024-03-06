@@ -29,7 +29,7 @@ function TradingViewWidget() {
 		container.current.appendChild(script);
 	}, []);
 	return (
-		<div className='h-full pl-4 pr-4 lg:pl-0 lg:pr-0'>
+		<div className='h-full pl-1 pr-1 lg:pl-0 lg:pr-0'>
 			<div
 				className='tradingview-widget-container'
 				ref={container}

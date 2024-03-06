@@ -29,7 +29,7 @@ const CryptoDetails = () => {
 	const formatedinr = bitcoinPriceInr.toLocaleString('en-IN');
 	return (
 		<div className='w-[100%] h-[100vh] bg-white p-4 rounded-lg'>
-			<h1 className='text-xl font-bold capitalize mb-10'>
+			<h1 className='text-xl font-bold capitalize mb-4'>
 				{Object.keys(data)}
 			</h1>
 

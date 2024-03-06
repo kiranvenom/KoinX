@@ -8,6 +8,7 @@ import Sentiment from './Components/Sentiment';
 import About from './Components/About';
 import Tokenomics from './Components/Tokenomics';
 import Team from './Components/Team';
+import YouMayLine from './Components/YouMayLine';
 
 const App = () => {
 	return (
@@ -23,6 +24,7 @@ const App = () => {
 				<Tokenomics />
 				<Team />
 			</div>
+			<YouMayLine />
 		</>
 	);
 };

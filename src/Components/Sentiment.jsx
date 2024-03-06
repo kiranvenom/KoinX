@@ -16,17 +16,17 @@ const Sentiment = () => {
 				</div>
 				<div>
 					<div className='flex gap-4 items-center'>
-						<h1>Buy</h1>
+						<h1 className='w-[2rem]'>Buy</h1>
 						<div className='w-[20vw] h-[8px] bg-green-500 rounded-lg'></div>
 						<h1>78%</h1>
 					</div>
 					<div className='flex gap-4 items-center'>
-						<h1>Hold</h1>
+						<h1 className='w-[2rem]'>Hold</h1>
 						<div className='w-[4vw] h-[8px] bg-slate-500 rounded-lg'></div>
 						<h1>8%</h1>
 					</div>
 					<div className='flex gap-4 items-center'>
-						<h1>Sell</h1>
+						<h1 className='w-[2rem]'>Sell</h1>
 						<div className='w-[8vw] h-[8px] bg-red-500 rounded-lg'></div>
 						<h1>16%</h1>
 					</div>
