@@ -12,7 +12,7 @@ const StartFree = () => {
 			</p>
 			<img
 				className='w-[100%] h-[100%]'
-				src='./src/assets/images/blog-removebg.png'
+				src='https://github.com/kiranvenom/KoinX/blob/main/src/assets/images/blog-removebg.png?raw=true'
 				alt='image'
 			/>
 			<button className='bg-white text-black px-6 py-2 rounded-md font-bold flex items-center gap-4'>
