@@ -7,7 +7,7 @@ const Fundamentals = ({ data }) => {
 	console.log(data.data.market_data);
 	return (
 		<div>
-			<h1 className='font-bold text-3xl my-4'>Fundamentals</h1>
+			<h1 className='font-bold text-3xl my-'>Fundamentals</h1>
 			<div className='grid lg:grid-cols-2 lg:gap-14'>
 				<div>
 					<FundamentalDetails

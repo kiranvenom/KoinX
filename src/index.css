@@ -59,6 +59,7 @@ li {
 	}
 }
 
+.sentiment::-webkit-scrollbar,
 .overview::-webkit-scrollbar {
 	display: none;
 }

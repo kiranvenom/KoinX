@@ -20,8 +20,8 @@ const Perfromance = () => {
 	}, []);
 
 	return (
-		<div className='lg:w-[70%] border-b-2 mb-10 pb-0 whitespace-nowrap gap-6 overflow-x-scroll overview w-full px-4 py-4  lg:p-6  bg-white rounded-lg'>
-			<h1 className='font-bold text-3xl mb-4'>Performance</h1>
+		<div className='lg:w-[70%] border-b-2 mb-4 pb-0 whitespace-nowrap gap-6 overflow-x-scroll overview w-full px-4 py-4  lg:p-6  bg-white rounded-lg'>
+			<h1 className='font-bold text-3xl mb-2'>Performance</h1>
 			<div className='flex justify-between items-center gap-4 mb-6'>
 				<div className='text-xs lg:text-base'>
 					<h2>Today's low</h2>
