@@ -4,14 +4,14 @@ import StartFree from './StartFree';
 
 const Hero = () => {
 	return (
-		<div className='parent h-[80vh]'>
-			<div className='div1 h-full pr-4'>
+		<div className='parent'>
+			<div className='div1 pr-2'>
 				<CryptoDetails />
 			</div>
-			<div className='div2 pl-4 mb-2'>
+			<div className='div2 pl-2 mb-2'>
 				<StartFree />
 			</div>
-			<div className='div3 pl-4 mt-2'>
+			<div className='div3 pl-2 mt-2'>
 				<TrendingTopCoin />
 			</div>
 		</div>
