@@ -93,3 +93,16 @@ input[type='range']::-webkit-slider-thumb {
 #highLow2::-webkit-slider-thumb {
 	display: none;
 }
+
+.rot {
+	animation: round 1s ease-in-out infinite forwards;
+}
+
+@keyframes round {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

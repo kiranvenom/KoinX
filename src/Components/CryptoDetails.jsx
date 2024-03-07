@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import apiLinks from '../Utils/links';
 import TradingViewWidget from './TradingViewWidget';
+import { AiOutlineLoading } from 'react-icons/ai';
 
 const CryptoDetails = () => {
 	const [data, setdata] = useState(null);
@@ -20,11 +21,16 @@ const CryptoDetails = () => {
 	}, []);
 
 	if (data === null) {
-		return <p>Loading...</p>;
+		return (
+			<div className='h-[80vh] flex justify-center items-center flex-col'>
+				<AiOutlineLoading className='rot' color='blue' size={200} />
+				<h1 className='mt-6'>Loading.. please Wait</h1>
+			</div>
+		);
 	}
 
-	const bitcoinPrice = data.bitcoin && data.bitcoin.usd;
-	const bitcoinPriceInr = data.bitcoin && data.bitcoin.inr;
+	const bitcoinPrice = data?.bitcoin?.usd ?? null;
+	const bitcoinPriceInr = data?.bitcoin?.inr ?? null;
 	const formated = bitcoinPrice.toLocaleString('en-IN');
 	const formatedinr = bitcoinPriceInr.toLocaleString('en-IN');
 	return (
