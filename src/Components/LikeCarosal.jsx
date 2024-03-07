@@ -45,7 +45,6 @@ import 'swiper/css/scrollbar';
 import CryptoDetailsCoinTrending from './CryptoDetailsCoinTrending';
 
 const LikeCarosal = ({ data }) => {
-
 	if (data.length == 0) {
 		return null;
 	}
@@ -54,11 +53,11 @@ const LikeCarosal = ({ data }) => {
 		<Swiper
 			modules={[Navigation]}
 			spaceBetween={8}
-			slidesPerView={2}
+			slidesPerView={2.2}
 			navigation
 			breakpoints={{
 				786: {
-					slidesPerView: 4,
+					slidesPerView: 4.2,
 				},
 			}}>
 			{data.coins.map((coin) => (
